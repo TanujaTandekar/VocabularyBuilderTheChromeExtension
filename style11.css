@@ -1,0 +1,57 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    /* width: 280px;
+    height: 280px; */
+    /* background-color: aliceblue; */
+    display: flex;
+    /* justify-content: center; */
+    border: 2px solid rgb(21, 21, 247);
+}
+
+/* #open{
+    display: none;
+} */
+
+#pp {
+    display: inline-flex;
+    margin: auto 10px;
+    font-size: 20px;
+    color: blue;
+    border-radius: 6px;
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+
+.popUP {
+    text-align: center;
+    width: 280px;
+    height: 280px;
+    background-color: aliceblue;
+}
+
+.popUP img {
+    width: 188px;
+    margin-top: -94px;
+    border-radius: 50%;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); */
+}
+
+#btn {
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    color: blue;
+    font-size: 15px;
+    border-radius: 6px;
+    /* padding: 15px 0; */
+}
+
+#btn:hover {
+    /* background-color: gray; */
+    color: blue;
+    border: 2px solid black;
+}
